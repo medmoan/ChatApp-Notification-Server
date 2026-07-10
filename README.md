@@ -26,7 +26,7 @@ npm install
 ### 3. Download Firebase Admin SDK
 
 <p align="center">
-  <img src="screenshots/download_serviceAccount.png" width="220"/>
+  <img src="screenshots/download_serviceAccount.json.png" width="220"/>
 </p>
 
 1. Open your Firebase project.
