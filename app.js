@@ -18,6 +18,7 @@ app.post("/send-notification", async (req, res) => {
 
         const { uid, title, body } = req.body
 
+
         const userDoc = await db
             .collection("users")
             .doc(uid)
