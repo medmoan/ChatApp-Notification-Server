@@ -46,3 +46,27 @@ serviceAccountKey.json
 ```bash
 node app.js
 ```
+
+**Test demonstrating a successful notification flow: the Android app sends a request to the backend, the backend processes it, and the notification is successfully delivered back to the Android device.**
+
+<p align="center">
+  <img src="screenshots/my_message_from_emulator.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/log_message.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/notification.png" width="220"/>
+</p>
+
+This repository contains the notification backend for ChatApp.
+
+Both projects are connected and work together:
+
+* ChatApp Android Client
+* ChatApp Notification Server
+
+ChatApp Repository:
+https://github.com/medmoan/ChatApp
